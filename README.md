@@ -26,8 +26,8 @@ Si aún no tienes Docker y Docker Compose instalados, puedes descargarlos e inst
 
  - Clona el repositorio en tu máquina local utilizando el siguiente comando
 ```plaintext
-   git clone <URL_del_repositorio>
-   cd <nombre_del_directorio>
+   git clone <https://github.com/lsolaez/DockerCompose.git>
+   cd <DockerCompose>
 ```
 
 4. **Construcción y ejecución de contenedores:**
