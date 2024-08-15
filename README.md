@@ -47,7 +47,7 @@ docker-compose up --build
 ## Contenedores
 - Contenedor 1: Proxy
   - Imagen: Nginx
-  - Puerto Expuesto: 80
+  - Puerto Expuesto: 8081
   - Descripción: Proporciona la página de bienvenida y redirige las solicitudes a los otros contenedores.
 
 - Contenedor 2: MIPSTranslator
