@@ -39,7 +39,7 @@ docker-compose up --build
 
 5. **Acceso a la Aplicación:**
 
-- Navega a http://localhost:8080 para acceder a la página de bienvenida.
+- Navega a http://localhost:8081 para acceder a la página de bienvenida.
 - Utiliza los enlaces disponibles para redirigirte a los servicios de los contenedores:
   - /c2/ para el contenedor MIPSTranslator (puerto 8000).
   - /c3/ para el contenedor LogisimWeb (puerto 8001).
