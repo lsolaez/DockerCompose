@@ -11,8 +11,8 @@ Este proyecto utiliza Docker para desplegar un entorno con tres contenedores que
   - ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
 - **Aplicaciones Web:**
-  - **MIPSTranslator**
-  - **LogisimWeb**
+  - **MIPSTranslator** tomado de: [MIPSTraslator](https://github.com/proyectosingenieriauninorte/MIPSTranslator.git)
+  - **LogisimWeb** tomado de: [LogisimWeb](https://github.com/proyectosingenieriauninorte/LogisimWeb.git)
 
 
 ## Ejecución del Código
@@ -46,14 +46,14 @@ docker-compose up --build
  
 ## Contenedores
 - Contenedor 1: Proxy
-  Imagen: Nginx
-  Puerto Expuesto: 80
-  Descripción: Proporciona la página de bienvenida y redirige las solicitudes a los otros contenedores.
+  - Imagen: Nginx
+  - Puerto Expuesto: 80
+  - Descripción: Proporciona la página de bienvenida y redirige las solicitudes a los otros contenedores.
 
 - Contenedor 2: MIPSTranslator
-  Puerto Expuesto: 8000
-  Descripción: Aplicación web basada en el proyecto MIPSTranslator.
+  - Puerto Expuesto: 8000
+  - Descripción: Aplicación web basada en el proyecto MIPSTranslator.
 
 - Contenedor 3: LogisimWeb
-  Puerto Expuesto: 8001
-  Descripción: Aplicación web basada en el proyecto LogisimWeb.
+  - Puerto Expuesto: 8001
+  - Descripción: Aplicación web basada en el proyecto LogisimWeb.
